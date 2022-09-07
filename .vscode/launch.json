@@ -12,7 +12,7 @@
             "module": "scrapy",
             "args": [
                 "crawl",
-                "quotes"
+                "kayak"
             ],
             "console": "integratedTerminal"
         }

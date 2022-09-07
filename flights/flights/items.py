@@ -15,7 +15,7 @@ class QuotesItem(scrapy.Item):
     
 
 
-class FlightsItem(scrapy.Item):
+class FlightItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass

@@ -7,6 +7,13 @@ class QuotesSpider(scrapy.Spider):
     name = 'quotes'
     custom_settings = {
         "TWISTED_REACTOR": "twisted.internet.asyncioreactor.AsyncioSelectorReactor",
+        #"PLAYWRIGHT_LAUNCH_OPTIONS": {
+        #    "proxy": {
+        #        "server": "http://myproxy.com:3128",
+        #        "username": "user",
+        #        "password": "pass",
+        #    },
+        #}
     }
 
     def start_requests(self):
